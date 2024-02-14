@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.header-section{
+    padding: 50px 0px 118px;
+    background: black;
+    background: url(../Image/Pattern.png) no-repeat left/40%,
+    url(../Image/image.png) no-repeat right/55%,
+    #000;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 134px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    margin: 0 50px;
+}
+
+.menu-link{
+    color: #FFF;
+
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 160%; 
+    opacity: 0.6;
+}
+
+.item.active a{
+    color: rgb(255, 94, 0);
+    opacity: 1;
+    font-weight: 700;
+}
+
+.main-heading{
+    color:#FFF;
+    font-family: "Josefin Sans";
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 69.9px;
+    margin-top: 110px;
+}
+
+.main-description{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 26px;
+    margin-bottom: 48px;
+}
+
+.main-button{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    border-radius: 5px;
+    background: #FF4B32;
+    padding: 16px 35px;
+    cursor: poiner;
+}
+
+.container2{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.under-header{
+    padding: 140px 0px;
+    background-color: #FFF;
+}
+
+.under-header-title{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 6.45px;
+}
+
+.under-title{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    margin-bottom: 50px;
+}
+
+.offers-wrap{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    padding: 60 0;
+}
+.element-price{
+    color: #0C0D0C;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.element-title{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    margin-top: 10px;
+    margin-bottom: 15px
+}
+
+.under-element-title{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.container3{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.follow-section{
+    padding: 100px 0px 100px;
+    background: black;
+    background: url(../Image/Image\ mask.png) no-repeat right,
+    url(../Image/Image\ mask-1.png) no-repeat left,
+    #000;
+}
+
+.inside{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.follow{
+    color: rgb(255, 94, 0);
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.under-follow{
+    color: #FFF;
+    font-size: 43px;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.icons img{
+    margin-right: 6px;
+}
+
+.icon-text{
+    color: #FFF;
+    font-size: 24px;
+}
+
+.img-icons{
+    margin-top: 30px;
+}
+
+.margin{
+    margin-top: 60px;
+}
+
+.fotter-section{
+    padding: 50px 0px 118px;
+    background: black;
+    background: url(../Image/Pattern.png),
+    #000;
+    margin-top: 150px;
+}
+
+.container4{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.fotter-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fotter-card p{
+    color: #FFF;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.fotter-card h2{
+    color: #FFF;
+    font-size: 24px;
+}
+
+.fotter-img{
+    margin-top: 45px;
+}
+
+.fotter-underline{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 76px;
+    text-decoration: underline;
+    text-underline-offset: -50px;
+}
